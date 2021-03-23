@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--  android:background="@color/white"  -   костыль, если кто может сказать почему оно наслаивается буду рад -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <RadioButton
+                android:id="@+id/google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/google"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/yandex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yandex"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/bing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bing"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>
